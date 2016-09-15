@@ -25,10 +25,10 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div class="container main-container">
+<div class="main-container">
 	<header>
-		<!--<a href="<?php echo esc_url( home_url( '/' ) ); ?>"> <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/logo.jpg" alt="logo" class="logo"> 
-	</a> -->
+		<a href="<?php echo esc_url( home_url( '/' ) ); ?>"> <div class="brand">Mel Wood's Natural Goods</div> <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/img/banner.jpg" alt="banner" class="banner">
+	</a>
 	<?php get_template_part('content', 'menu'); ?>
 	</header>
 

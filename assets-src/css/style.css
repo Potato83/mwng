@@ -1,3 +1,80 @@
 body{
 	background: #ccc;
+	overflow-x: hidden;
+}
+
+.home-main{
+	height: 75vh;
+	background: #ac142d;
+	width: 100%;
+	margin: 0;
+	position: relative;
+	z-index: 3;
+	/*top: 350px;*/
+	/*opacity: 0.5;*/
+}
+
+.banner{
+	width: 100%;
+	/*position: fixed;*/
+	height: 350px;
+	position: relative;
+	z-index: 2;
+}
+
+.brand{
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	text-shadow: 5px 5px #000;
+	/*background: green;*/
+	font-family: cursive;
+	font-weight: bold;
+	width: 100%;
+	font-size: 80px;
+	top: 20%;
+	z-index: 3;
+}
+
+.menu-container{
+	position: relative;
+	z-index: 5;
+}
+
+.hero{
+	font-size: 30px;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.bg-image{
+	background: url('http://localhost:8888/melwood/html/wp-content/uploads/2016/09/bg.jpeg');
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.middle{
+	position: relative;
+	z-index: 2;
+	font-size: 40px;
+	height: 400px;
+	text-align: center;
+	color: #eee;
+	padding-top: 150px;
+}
+
+.instagram{
+	/*width: 80%;*/
+	margin: 0 auto;
+	background: red;
+	/*opacity: 0.5;*/
+	position: relative;
+	z-index: 3;
+	/*top: 400px;*/
 }
